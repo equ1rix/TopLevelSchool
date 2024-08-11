@@ -1,4 +1,5 @@
 import Firstpart from "../../components/Firstpart";
+import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 
 const Mainpage = () => {
@@ -6,6 +7,7 @@ const Mainpage = () => {
     <>
       <Header />
       <Firstpart />
+      <Footer />
     </>
   );
 };
