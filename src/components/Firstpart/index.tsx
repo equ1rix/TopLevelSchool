@@ -1,6 +1,6 @@
 const Firstpart = () => {
   return (
-    <div className="container mx-auto relative h-[881px] max-w-[1100px]">
+    <div className="container mx-auto relative h-[881px] max-w-[1100px] font-Ubuntu">
       <div className="absolute inset-0 rounded-lg py-3">
         <img
           src="/3174050.png"
@@ -15,7 +15,7 @@ const Firstpart = () => {
           className="w-[550px] object-cover rounded-2xl"
         />
       </div>
-      <div className="absolute top-[250px] left-[20px] max-w-[400px] z-10 text-white text-2xl font-bold p-5 rounded-lg bg-bg-main transform rotate-[-10deg] origin-top-left">
+      <div className="absolute top-[250px] left-[20px] max-w-[400px] z-10 text-white text-2xl font-bold  p-5 rounded-lg bg-bg-main transform rotate-[-10deg] origin-top-left">
         Школа іноземних мов №1
       </div>
       <div className="absolute top-[350px] left-[20px] max-w-[400px] z-10 text-white text-2xl font-bold p-5 rounded-lg bg-bg-main transform rotate-[5deg] origin-top-left">
