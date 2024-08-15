@@ -1,6 +1,10 @@
+import { mock } from "../../helpers";
+
 import Button from "../Button";
 
-const Header = () => {
+type HeaderProps = {};
+
+const Header = ({}: HeaderProps) => {
   const navArray = [
     { title: "Home", link: "#home" },
     { title: "Info", link: "#info" },
@@ -30,7 +34,7 @@ const Header = () => {
             </ul>
           </nav>
           <div className="ml-[40px]">
-            <Button text="SignIn" type="DEFAULT" />
+            <Button text="SignIn" type="DEFAULT" onClick={mock} />
           </div>
         </div>
       </div>

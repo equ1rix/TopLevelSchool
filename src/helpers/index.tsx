@@ -1,3 +1,5 @@
+export const mock = () => {};
+
 export const arrayCardInformation = [
   {
     title: "500+",
