@@ -12,8 +12,8 @@ const Header = ({}: HeaderProps) => {
   ];
 
   return (
-    <header className="h-[116px] bg-gray-800 text-white flex items-center font-Ubuntu">
-      <div className="container mx-auto max-w-[937px] flex items-center">
+    <header className="h-[116px] bg-gray-800 text-white flex items-center">
+      <div className="container mx-auto max-w-[1050px] flex items-center">
         <div className="text-xl font-bold">
           <a href="#home">Logo</a>
         </div>
