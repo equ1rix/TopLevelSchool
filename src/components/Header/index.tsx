@@ -1,3 +1,5 @@
+import Button from "../Button";
+
 const Header = () => {
   const navArray = [
     { title: "Home", link: "#home" },
@@ -27,7 +29,9 @@ const Header = () => {
               ))}
             </ul>
           </nav>
-          <div className="ml-[100px]">Account</div>
+          <div className="ml-[40px]">
+            <Button text="SignIn" type="DEFAULT" />
+          </div>
         </div>
       </div>
     </header>
