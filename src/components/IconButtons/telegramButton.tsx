@@ -1,16 +1,16 @@
 import { mock } from "../../helpers";
 
 import IconButton from "./iconButton";
-import { CloseIcon } from "./Icons";
+import { TelegramIcon } from "./Icons";
 
 type ButtonProps = {
   onClick: () => void;
 };
 
-const CloseButton = ({ onClick = mock }: ButtonProps) => (
+const TelegramButton = ({ onClick = mock }: ButtonProps) => (
   <IconButton onClick={onClick}>
-    <CloseIcon />
+    <TelegramIcon />
   </IconButton>
 );
 
-export default CloseButton;
+export default TelegramButton;

@@ -1,7 +1,8 @@
 import { mock } from "../../helpers";
 
 import IconButton from "./iconButton";
-import InstagramIcon from "./Icons/instagramIcon";
+
+import { InstagramIcon } from "./Icons";
 
 type ButtonProps = {
   onClick: () => void;
