@@ -1,11 +1,13 @@
-import Firstpart from "../../components/Firstpart";
+import MainSegment from "../../components/MainSegment";
 import Header from "../../components/Header";
+import InfoSegment from "../../components/InfoSegment";
 
 const Mainpage = () => {
   return (
     <>
       <Header />
-      <Firstpart />
+      <MainSegment />
+      <InfoSegment />
     </>
   );
 };

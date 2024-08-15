@@ -1,8 +1,8 @@
 const Header = () => {
   const navArray = [
-    { id: "1", title: "Home", link: "#home" },
-    { id: "2", title: "Info", link: "#info" },
-    { id: "3", title: "Contacts", link: "#contacts" },
+    { title: "Home", link: "#home" },
+    { title: "Info", link: "#info" },
+    { title: "Contacts", link: "#contacts" },
   ];
 
   return (
@@ -14,8 +14,8 @@ const Header = () => {
         <div className=" container flex justify-end items-center">
           <nav>
             <ul className="flex space-x-20">
-              {navArray.map((el) => (
-                <li key={el.id}>
+              {navArray.map((el, index) => (
+                <li key={index}>
                   <a
                     href={el.link}
                     className="relative text-white group font-semibold"
