@@ -1,4 +1,12 @@
-const MainSegment = () => {
+import { mock } from "../../helpers";
+
+import Button from "../Button";
+
+type MainSegmentProps = {
+  openModal: () => void;
+};
+
+const MainSegment = ({ openModal = mock }: MainSegmentProps) => {
   return (
     <div className="container mx-auto relative h-[881px] max-w-[1100px] font-Ubuntu">
       <div className="absolute inset-0 rounded-lg py-3">
@@ -21,6 +29,9 @@ const MainSegment = () => {
       <h2 className="absolute top-[350px] left-[20px] max-w-[400px] z-10 text-white text-2xl font-bold p-5 rounded-lg bg-bg-textHighlight transform rotate-[5deg] origin-top-left">
         від 5 до 60 років
       </h2>
+      <div className="absolute top-[550px] left-[90px] z-10">
+        <Button onClick={openModal} text="Записатися" />
+      </div>
       <div className="absolute bottom-[20px] rounded-lg left-0 w-full h-[5px] bg-gray-400"></div>
     </div>
   );
