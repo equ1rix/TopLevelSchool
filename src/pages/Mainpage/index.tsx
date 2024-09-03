@@ -6,6 +6,7 @@ import Footer from "../../components/Footer";
 import InfoSegment from "../../components/InfoSegment";
 import ModalRegForm from "../../components/ModalRegForm";
 import Header from "../../components/Header";
+import TeachersSegment from "../../components/TeachersSegment";
 
 const Mainpage = () => {
   const [isOpenModal, setIsOpenModal] = useState<boolean>(false);
@@ -19,6 +20,7 @@ const Mainpage = () => {
       <Header />
       <MainSegment openModal={handleOpenModal} />
       <InfoSegment />
+      <TeachersSegment />
       {isOpenModal && <ModalRegForm onClose={handleOpenModal} />}
       <Footer />
     </>
