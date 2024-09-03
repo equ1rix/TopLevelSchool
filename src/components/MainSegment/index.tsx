@@ -23,13 +23,13 @@ const MainSegment = ({ openModal = mock }: MainSegmentProps) => {
           className="w-[550px] object-cover rounded-2xl"
         />
       </div>
-      <h1 className="absolute top-[250px] left-[20px] max-w-[400px] z-10 text-white text-2xl font-bold  p-5 rounded-lg bg-bg-textHighlight transform rotate-[-10deg] origin-top-left">
+      <h1 className="absolute top-[220px] left-[20px] max-w-[700px] z-10 text-white text-7xl font-bold  p-5 rounded-lg bg-bg-textHighlight transform rotate-[-10deg] origin-top-left">
         Школа іноземних мов №1
       </h1>
-      <h2 className="absolute top-[350px] left-[20px] max-w-[400px] z-10 text-white text-2xl font-bold p-5 rounded-lg bg-bg-textHighlight transform rotate-[5deg] origin-top-left">
+      <h2 className="absolute top-[400px] left-[20px] max-w-[500px] z-10 text-white text-5xl font-bold p-5 rounded-lg bg-bg-textHighlight transform rotate-[5deg] origin-top-left">
         від 5 до 60 років
       </h2>
-      <div className="absolute top-[550px] left-[90px] z-10">
+      <div className="absolute top-[550px] left-[90px] z-10 w-[180px] h-[60px]">
         <Button onClick={openModal} text="Записатися" />
       </div>
       <div className="absolute bottom-[20px] rounded-lg left-0 w-full h-[5px] bg-gray-400"></div>

@@ -7,10 +7,12 @@ export const BUTTON_TYPE = {
 type ButtonType = (typeof BUTTON_TYPE)[keyof typeof BUTTON_TYPE];
 
 const BUTTON_STYLE: Record<ButtonType, string> = {
-  DEFAULT: "bg-bg-main rounded-3xl text-text-primary font-bold py-2 px-4 ",
+  DEFAULT: "bg-bg-main w-full h-full rounded-3xl font-bold py-2 px-4 ",
   DASHED:
-    "rounded-3xl bg-bg-main border border-dashed border-2 font-bold py-2 px-4 ",
-  DISABLED: "bg-black rounded-3xl text-text-disabled font-bold py-2 px-4 ",
+    "rounded-3xl w-full h-full bg-bg-main border border-dashed border-2 font-bold py-2 px-4 ",
+  DISABLED:
+    "bg-black w-full h-full rounded-3xl text-text-disabled font-bold py-2 px-4 ",
+  SWITCHER: "w-full h-full font-bold py-2 px-4",
 };
 
 type ButtonProps = {
